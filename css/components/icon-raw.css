@@ -7,13 +7,13 @@
 
 .icon-row__second {
   display: flex;
-  flex-direction: center;
+  justify-content: space-between;
   align-items: center;
+  margin-top: 35px;
 }
 
-.icon-row__second .icon-row__icon {
-  margin-top: 50px;
-  margin-right: 69px;
+.on {
+  margin-right: 25px;
 }
 
 .icon-row__icon {
@@ -28,4 +28,8 @@
 
 .icon-row__icon span {
   margin-top: 18px;
+}
+
+.dis {
+  opacity: 0;
 }
