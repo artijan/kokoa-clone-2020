@@ -8,6 +8,8 @@
   padding: 5px 3px;
 }
 .status-bar__column {
+  font-size: 15px;
+  font-weight: 400;
   width: 33%;
 }
 .status-bar__column:first-child span {
